@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224376369570",
+    "project_id": "noparkingzoneenforcement",
+    "storage_bucket": "noparkingzoneenforcement.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224376369570:android:2ad4e9b55f3a1180d3c2fb",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6vEaKW9oxZOL4hzFFjXAd7R4tvfpgk7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
