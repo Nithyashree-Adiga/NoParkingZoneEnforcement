@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Parking Zone Checker"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Location display -->
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: Unknown"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:padding="16dp"
+        android:background="#EEE"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/checkZoneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check No Parking Zone"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Result Box -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will be shown here."
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="16dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
